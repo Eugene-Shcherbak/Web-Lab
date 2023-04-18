@@ -5,8 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Rmh shop</title>
-        <link rel="stylesheet" href="css/product.css">
+        <link rel="stylesheet" href="css/userpage.css">
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <script src="js/logout1.js" defer></script>
     </head>
 
     <body>
@@ -32,27 +33,12 @@
                 </nav>
             </div>
         </div>
-
-
-        <div class="item-container">
-            <div class="item-image">
-              <img src="images/Ronchik.jpg" alt="Item image">
-            </div>
-            <div class="item-info">
-              <h1 class="item-name">Крутий Пес</h1>
-              <p class="item-description">
-                Найліпший пес якого я коли небудь бачив,
-                такого ні у кого немає, а у кого є,
-                той бреше. Це звичайний лорем іпсум, а не опис
-                плейсхолдер так би мовити, база, ґрунт,
-                опора, фундамент, моноліт, наріжний камінь.
-              </p>
-              <p class="item-price">$9.99</p>
-              <button class="item-add-to-cart">Купити</button>
-            </div>
-          </div>
+        <div class="buttoncont">
+            <button class="logoutbtn" id="logout1">Log out</button>
+        </div>
           
-          <script>
+
+        <script>
             if (localStorage.username != null) {
             document.getElementById("userid").innerHTML = localStorage.username;
             }

@@ -35,6 +35,8 @@ label {
 
 input[type=text],
 input[type=email],
+input[type=name],
+input[type=surname],
 input[type=password] {
   padding: 10px;
   margin-top: 5px;
